@@ -1,0 +1,146 @@
+@import url('https://cdn.jsdelivr.net//projectnoonnghu/noonfonts_2107@1.0/GmarketSans.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'GmarketSans', sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  background: #f5f5f5;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.layout-frame {
+  width: 1200px;
+  height: 154px;
+  border: 2px solid #ff3b3b;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.top-row {
+  display: grid;
+  grid-template-columns: 1fr auto minmax(320px, 1fr);
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.top-left,
+.top-center,
+.top-right,
+.bottom-row {
+  border: 1px solid #ff3b3b;
+}
+
+.top-left {
+  min-height: 80px;
+}
+
+.top-center {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #ff3b3b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #009cb4;
+  letter-spacing: 0.12em;
+  padding: 16px;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.user-links {
+  display: flex;
+  gap: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #444444;
+}
+
+.user-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background: #ff7250;
+}
+
+.btn-secondary {
+  background: #3ab9e3;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  padding: 0 20px;
+}
+
+.bottom-row a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
